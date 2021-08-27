@@ -1,9 +1,9 @@
 package com.harmex.amethystutils;
 
-//import com.harmex.amethystutils.common.block.ModBlocks;
-//import com.harmex.amethystutils.common.block.entity.ModBlockEntityTypes;
-//import com.harmex.amethystutils.common.inventory.ModMenuTypes;
-//import com.harmex.amethystutils.common.item.ModItems;
+import com.harmex.amethystutils.common.block.ModBlocks;
+import com.harmex.amethystutils.common.block.entity.ModBlockEntityTypes;
+import com.harmex.amethystutils.common.inventory.ModMenuTypes;
+import com.harmex.amethystutils.common.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
@@ -30,10 +30,10 @@ public class AmethystUtils
     public AmethystUtils() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        //ModItems.register(eventBus);
-        //ModBlocks.register(eventBus);
-        //ModBlockEntityTypes.register(eventBus);
-        //ModMenuTypes.register(eventBus);
+        ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
+        ModBlockEntityTypes.register(eventBus);
+        ModMenuTypes.register(eventBus);
 
         // Register the setup method for modloading
         eventBus.addListener(this::setup);
