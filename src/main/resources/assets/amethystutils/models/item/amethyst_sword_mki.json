@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "amethystutils:item/amethyst_sword_mki"
+  }
+}

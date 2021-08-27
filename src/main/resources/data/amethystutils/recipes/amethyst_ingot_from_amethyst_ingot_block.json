@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "amethyst_ingot",
+  "ingredients": [
+    {
+      "item": "amethystutils:amethyst_ingot_block"
+    }
+  ],
+  "result": {
+    "item": "amethystutils:amethyst_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:golden_chestplate"
+  },
+  "addition": {
+    "item": "amethystutils:amethyst_ingot"
+  },
+  "result": {
+    "item": "amethystutils:amethyst_chestplate_mki"
+  }
+}

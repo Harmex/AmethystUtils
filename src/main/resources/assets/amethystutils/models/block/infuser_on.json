@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "amethystutils:block/infuser_top",
+    "front": "amethystutils:block/infuser_front_on",
+    "side": "amethystutils:block/infuser_side"
+  }
+}

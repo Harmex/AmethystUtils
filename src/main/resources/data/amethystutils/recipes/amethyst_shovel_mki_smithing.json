@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:golden_shovel"
+  },
+  "addition": {
+    "item": "amethystutils:amethyst_ingot"
+  },
+  "result": {
+    "item": "amethystutils:amethyst_shovel_mki"
+  }
+}

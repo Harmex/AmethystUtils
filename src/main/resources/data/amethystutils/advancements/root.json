@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "amethystutils:amethyst_ingot"
+    },
+    "title": {
+      "translate": "advancements.amethystutils.root.title"
+    },
+    "description": {
+      "translate": "advancements.amethystutils.root.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true,
+    "background": "minecraft:textures/block/amethyst_block.png"
+  },
+  "criteria": {
+    "amethyst_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "amethystutils:amethyst_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "amethyst_ingot"
+    ]
+  ]
+}

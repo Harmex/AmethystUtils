@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "amethystutils:block/amethyst_ingot_block"
+    }
+  }
+}

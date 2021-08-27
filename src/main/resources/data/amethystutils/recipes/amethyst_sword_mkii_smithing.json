@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "amethystutils:amethyst_sword_mki"
+  },
+  "addition": {
+    "item": "amethystutils:amethyst_ingot_block"
+  },
+  "result": {
+    "item": "amethystutils:amethyst_sword_mkii"
+  }
+}

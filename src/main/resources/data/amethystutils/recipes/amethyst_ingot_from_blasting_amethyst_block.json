@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "amethyst_ingot",
+  "ingredient": {
+    "item": "minecraft:amethyst_block"
+  },
+  "result": "amethystutils:amethyst_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}
